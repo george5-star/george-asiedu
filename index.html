@@ -24,7 +24,7 @@
         <nav>
           <ul class="main-nav">
             <li class="main-nav__item">
-              <a href="./index.html" class="main-nav__link">Home</a>
+              <a href="./index.html" class="main-nav__link current">Home</a>
             </li>
             <li class="main-nav__item">
               <a href="./src/pages/about.html" class="main-nav__link">About</a>
@@ -82,23 +82,25 @@
             challenges.
           </p>
           <div class="btn-container">
-            <button class="cta cta--read">
-              <a href="./src/pages/blog.html"
-                ><img src="./src/assets/read-icon.svg" alt="" />Read Blog</a
-              >
-            </button>
-            <button class="cta cta--view">
-              <a href="https://www.linkedin.com/in/george5-star/">
-                <img src="./src/assets/linkedin-icon.svg" alt="" />View
-                Profile</a
-              >
-            </button>
+            <a class="cta cta--read shadow-sm" href="./src/pages/blog.html"
+              ><img src="./src/assets/read-icon.svg" alt="read icon" />Read
+              Blog</a
+            >
+            <a
+              class="cta cta--view shadow-sm"
+              href="https://www.linkedin.com/in/george5-star/"
+            >
+              <img
+                src="./src/assets/linkedin-icon.svg"
+                alt="linkedin icon"
+              />View Profile</a
+            >
           </div>
         </div>
         <div class="hero__img"></div>
       </div>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="wrapper">
         <ul class="footer-nav">
           <li class="main-nav__item">
@@ -143,6 +145,11 @@
           </li>
         </ul>
       </div>
+
+      <small>
+        &copy; 2023 George Asiedu. Got any feedback?
+        <a href="#" class="footer__feedback current">Let me know!</a></small
+      >
     </footer>
   </body>
 </html>
