@@ -3,9 +3,74 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>George's personal blog</title>
+    <title>George Asiedu | Personal website</title>
+    <link
+      rel="shortcut icon"
+      href="./src/assets/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Inter:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script src="./src/js/app.js" defer></script>
   </head>
   <body>
-    This is the blog page...
+    <header class="page-header">
+      <div class="wrapper">
+        <nav>
+          <ul class="main-nav">
+            <li class="main-nav__item">
+              <a href="../../index.html" class="main-nav__link">Home</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="./about.html" class="main-nav__link">About</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="./blog.html" class="main-nav__link current">Blog</a>
+            </li>
+          </ul>
+          <div class="nav-wrapper">
+            <div class="theme-toggler">
+              <img src="./src/assets/theme-toggler-icon.svg" alt="" />
+            </div>
+            <ul class="social-nav">
+              <li class="social-nav__item">
+                <a
+                  href="https://github.com/george5-star"
+                  target="_blank"
+                  class="social-nav__link"
+                  ><img src="./src/assets/github-icon.svg" alt=""
+                /></a>
+              </li>
+              <li class="social-nav__item">
+                <a
+                  href="https://www.linkedin.com/in/george5-star/"
+                  target="_blank"
+                  class="social-nav__link"
+                  ><img src="./src/assets/linkedin-icon.svg" alt=""
+                /></a>
+              </li>
+              <li class="social-nav__item">
+                <a
+                  href="https://twitter.com/GEORGEA80049138"
+                  target="_blank"
+                  class="social-nav__link"
+                  ><img src="./src/assets/twitter-icon.svg" alt=""
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="hero">
+      <div class="wrapper">
+        <h1 class="hero__title">Blog</h1>
+      </div>
+    </main>
   </body>
 </html>
