@@ -262,6 +262,10 @@ nav {
   .cta {
     max-width: 220px;
   }
+
+  .cta--view {
+    margin-inline-start: var(--mg-50);
+  }
 }
 
 .cta img {
@@ -282,7 +286,6 @@ nav {
   border: 1px solid hsla(0, 0%, 100%, 0.05);
   color: var(--clr-text--dark-theme);
   background-color: transparent;
-  margin-inline-start: var(--mg-50);
 }
 
 .cta--view:is(:hover, :focus) {
